@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/image.png");
+
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid rgb(147, 109, 218); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+ 
+  input[type=submit] {
+    background-color: rgb(147, 109, 218);
+    color: #b971cf;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+   
+  .container {
+    border-radius: 5px;
+    background-color: #0e0d0d;
+    padding: 20px;
+  }
+
+header {
+    padding: 20px;
+    font-family:'Dancing Script', cursive;;
+    background-color:   #b971cf;      
+    color: #b971cf;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .title {
+    color: #b971cf;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Dancing Script', cursive;;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #b971cf;
+    text-decoration: none;
+}
+
+.about-section {
+    padding: 50px;
+    color: #b971cf;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .about-section h2 {
+      text-align: center;
+      color:black
+  }
+  
+
+.name {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+
+
